@@ -8,7 +8,7 @@ This project was the final project of the course EE-597 Wireless Networks with t
 
 The goal of this project was to design and build a reliable communication protocol for unmanned aerial vehicle (UAV) using User Datagram Protocol (UDP). The main mission was the following: each UAV can only track a single target at a time. Once a UAV has locked into a target, the UAV cannot change its target. All UAVs cannot switch targets unless the current one gets out of range.
 
-The project was all done in the Common Open Research Emulator (CORE), a network emulator by the Boeing.
+The project was all done in the Common Open Research Emulator (CORE), a network emulator by Boeing.
 
 ## Source files
 
