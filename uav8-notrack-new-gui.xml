@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scenario name="/tmp/tmpgmnac6g9">
+  <networks>
+    <network id="21" name="wlan21" icon="" type="WIRELESS_LAN">
+      <position x="368.0" y="28.0" lat="47.57891190126457" lon="-122.12736551838164" alt="2.0"/>
+    </network>
+  </networks>
+  <devices>
+    <device id="1" name="n1" icon="/data/uas-core/icons/uav/grey_plane.png" type="PC" class="" image="">
+      <position x="71.0" y="51.0" lat="47.57870283765882" lon="-122.1313675129724" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="2" name="n2" icon="/data/uas-core/icons/uav/grey_plane.png" type="PC" class="" image="">
+      <position x="70.0" y="108.0" lat="47.57818471990745" lon="-122.13138098770166" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="3" name="n3" icon="/data/uas-core/icons/uav/grey_plane.png" type="PC" class="" image="">
+      <position x="69.0" y="162.0" lat="47.57769386678193" lon="-122.13139446243092" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="4" name="n4" icon="/data/uas-core/icons/uav/grey_plane.png" type="PC" class="" image="">
+      <position x="68.0" y="201.0" lat="47.577339358885006" lon="-122.13140793716019" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="6" name="n6" icon="/data/uas-core/icons/uav/grey_plane.png" type="PC" class="" image="">
+      <position x="181.0" y="43.0" lat="47.57877555552942" lon="-122.12988529275358" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="7" name="n7" icon="/data/uas-core/icons/uav/grey_plane.png" type="PC" class="" image="">
+      <position x="178.0" y="95.0" lat="47.57830288756522" lon="-122.12992571694137" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="8" name="n8" icon="/data/uas-core/icons/uav/grey_plane.png" type="PC" class="" image="">
+      <position x="176.0" y="151.0" lat="47.577793855754784" lon="-122.12995266639992" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="9" name="n9" icon="/data/uas-core/icons/uav/grey_plane.png" type="PC" class="" image="">
+      <position x="178.0" y="206.0" lat="47.57729390898104" lon="-122.12992571694137" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="11" name="n11" icon="/data/uas-core/icons/uav/grey_dot.png" type="PC" class="" image="">
+      <position x="1348.0" y="35.0" lat="47.57884827329901" lon="-122.11416028370509" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="12" name="n12" icon="/data/uas-core/icons/uav/grey_dot.png" type="PC" class="" image="">
+      <position x="1356.0" y="206.0" lat="47.57729390898104" lon="-122.114052485871" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="13" name="n13" icon="/data/uas-core/icons/uav/grey_dot.png" type="PC" class="" image="">
+      <position x="1369.0" y="364.0" lat="47.575857671694905" lon="-122.11387731439058" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="14" name="n14" icon="/data/uas-core/icons/uav/grey_dot.png" type="PC" class="" image="">
+      <position x="1382.0" y="534.0" lat="47.57431230909896" lon="-122.11370214291018" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="16" name="n16" icon="/data/uas-core/icons/uav/grey_dot.png" type="PC" class="" image="">
+      <position x="1446.0" y="35.0" lat="47.57884827329901" lon="-122.11283976023742" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="17" name="n17" icon="/data/uas-core/icons/uav/grey_dot.png" type="PC" class="" image="">
+      <position x="1452.0" y="201.0" lat="47.577339358885006" lon="-122.11275891186185" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="18" name="n18" icon="/data/uas-core/icons/uav/grey_dot.png" type="PC" class="" image="">
+      <position x="1464.0" y="360.0" lat="47.57589403261857" lon="-122.11259721511071" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="19" name="n19" icon="/data/uas-core/icons/uav/grey_dot.png" type="PC" class="" image="">
+      <position x="1477.0" y="534.0" lat="47.57431230909896" lon="-122.11242204363032" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+  </devices>
+  <links>
+    <link node1="21" node2="1">
+      <iface2 id="0" name="eth0" ip4="10.0.0.1" ip4_mask="24" ip6="2001::14" ip6_mask="64"/>
+    </link>
+    <link node1="21" node2="2">
+      <iface2 id="0" name="eth0" ip4="10.0.0.2" ip4_mask="24" ip6="2001::15" ip6_mask="64"/>
+    </link>
+    <link node1="21" node2="3">
+      <iface2 id="0" name="eth0" ip4="10.0.0.3" ip4_mask="24" ip6="2001::16" ip6_mask="64"/>
+    </link>
+    <link node1="21" node2="4">
+      <iface2 id="0" name="eth0" ip4="10.0.0.4" ip4_mask="24" ip6="2001::17" ip6_mask="64"/>
+    </link>
+    <link node1="21" node2="6">
+      <iface2 id="0" name="eth0" ip4="10.0.0.6" ip4_mask="24" ip6="2001::19" ip6_mask="64"/>
+    </link>
+    <link node1="21" node2="7">
+      <iface2 id="0" name="eth0" ip4="10.0.0.7" ip4_mask="24" ip6="2001::1a" ip6_mask="64"/>
+    </link>
+    <link node1="21" node2="8">
+      <iface2 id="0" name="eth0" ip4="10.0.0.8" ip4_mask="24" ip6="2001::1b" ip6_mask="64"/>
+    </link>
+    <link node1="21" node2="9">
+      <iface2 id="0" name="eth0" ip4="10.0.0.9" ip4_mask="24" ip6="2001::1c" ip6_mask="64"/>
+    </link>
+  </links>
+  <mobility_configurations>
+    <mobility_configuration node="21" model="basic_range">
+      <configuration name="range" value="1100"/>
+      <configuration name="bandwidth" value="54000000"/>
+      <configuration name="jitter" value="0"/>
+      <configuration name="delay" value="200000"/>
+      <configuration name="error" value="20"/>
+    </mobility_configuration>
+  </mobility_configurations>
+  <emane_global_configuration>
+    <emulator/>
+    <core>
+      <configuration name="platform_id_start" value="1"/>
+      <configuration name="nem_id_start" value="1"/>
+      <configuration name="link_enabled" value="1"/>
+      <configuration name="loss_threshold" value="30"/>
+      <configuration name="link_interval" value="1"/>
+      <configuration name="link_timeout" value="4"/>
+    </core>
+  </emane_global_configuration>
+  <session_origin lat="47.579166412353516" lon="-122.13232421875" alt="2.0" scale="150.0"/>
+  <session_hooks>
+    <hook name="runtime_hook.sh" state="4">#!/bin/sh
+# session hook script; write commands here to execute on the host at the
+# specified state
+
+# Set initial waypoints
+echo 100 150 &gt; /tmp/n1_orig_wypt.txt
+echo 100 300 &gt; /tmp/n2_orig_wypt.txt
+echo 100 450 &gt; /tmp/n3_orig_wypt.txt
+echo 100 600 &gt; /tmp/n4_orig_wypt.txt
+echo 400 150 &gt; /tmp/n6_orig_wypt.txt
+echo 400 300 &gt; /tmp/n7_orig_wypt.txt
+echo 400 450 &gt; /tmp/n8_orig_wypt.txt
+echo 400 600 &gt; /tmp/n9_orig_wypt.txt
+
+# Set multicast routes
+vcmd -c /tmp/pycore.*/n1 -- /sbin/ip route add 224.0.0.0/4 dev eth0
+vcmd -c /tmp/pycore.*/n2 -- /sbin/ip route add 224.0.0.0/4 dev eth0
+vcmd -c /tmp/pycore.*/n3 -- /sbin/ip route add 224.0.0.0/4 dev eth0
+vcmd -c /tmp/pycore.*/n4 -- /sbin/ip route add 224.0.0.0/4 dev eth0
+vcmd -c /tmp/pycore.*/n6 -- /sbin/ip route add 224.0.0.0/4 dev eth0
+vcmd -c /tmp/pycore.*/n7 -- /sbin/ip route add 224.0.0.0/4 dev eth0
+vcmd -c /tmp/pycore.*/n8 -- /sbin/ip route add 224.0.0.0/4 dev eth0
+vcmd -c /tmp/pycore.*/n9 -- /sbin/ip route add 224.0.0.0/4 dev eth0
+
+sleep 5
+
+# Start mobility scripts
+vcmd -c /tmp/pycore.*/n1 -- core-python -u /data/uas-core/move_node_grpc.py 1 67 36 70 40 200 &gt; /tmp/move_n1.log 2&gt;&amp;1 &amp;
+vcmd -c /tmp/pycore.*/n2 -- core-python -u /data/uas-core/move_node_grpc.py 2 67 85 70 40 200 &gt; /tmp/move_n2.log 2&gt;&amp;1 &amp;
+vcmd -c /tmp/pycore.*/n3 -- core-python -u /data/uas-core/move_node_grpc.py 3 67 139 70 40 200 &gt; /tmp/move_n3.log 2&gt;&amp;1 &amp;
+vcmd -c /tmp/pycore.*/n4 -- core-python -u /data/uas-core/move_node_grpc.py 4 67 186 70 40 200 &gt; /tmp/move_n4.log 2&gt;&amp;1 &amp;
+vcmd -c /tmp/pycore.*/n6 -- core-python -u /data/uas-core/move_node_grpc.py 6 167 36 70 40 200 &gt; /tmp/move_n6.log 2&gt;&amp;1 &amp;
+vcmd -c /tmp/pycore.*/n7 -- core-python -u /data/uas-core/move_node_grpc.py 7 167 85 70 40 200 &gt; /tmp/move_n7.log 2&gt;&amp;1 &amp;
+vcmd -c /tmp/pycore.*/n8 -- core-python -u /data/uas-core/move_node_grpc.py 8 167 139 70 40 200 &gt; /tmp/move_n8.log 2&gt;&amp;1 &amp;
+vcmd -c /tmp/pycore.*/n9 -- core-python -u /data/uas-core/move_node_grpc.py 9 167 186 70 40 200 &gt; /tmp/move_n9.log 2&gt;&amp;1 &amp;</hook>
+  </session_hooks>
+  <session_options>
+    <configuration name="controlnet" value="172.16.0.0/24"/>
+    <configuration name="controlnet0" value=""/>
+    <configuration name="controlnet1" value=""/>
+    <configuration name="controlnet2" value=""/>
+    <configuration name="controlnet3" value=""/>
+    <configuration name="controlnet_updown_script" value=""/>
+    <configuration name="enablerj45" value="1"/>
+    <configuration name="preservedir" value="0"/>
+    <configuration name="enablesdt" value="0"/>
+    <configuration name="sdturl" value="tcp://127.0.0.1:50000/"/>
+    <configuration name="ovs" value="0"/>
+  </session_options>
+  <session_metadata>
+    <configuration name="shapes" value="[]"/>
+    <configuration name="canvas" value="{&quot;wallpaper&quot;: &quot;/data/uas-core/icons/uav/stl_map.jpg&quot;, &quot;wallpaper-style&quot;: 3, &quot;gridlines&quot;: true, &quot;fit_image&quot;: false, &quot;dimensions&quot;: [1550, 900]}"/>
+  </session_metadata>
+  <default_services>
+    <node type="mdr">
+      <service name="zebra"/>
+      <service name="OSPFv3MDR"/>
+      <service name="IPForward"/>
+    </node>
+    <node type="PC">
+      <service name="DefaultRoute"/>
+    </node>
+    <node type="prouter"/>
+    <node type="router">
+      <service name="zebra"/>
+      <service name="OSPFv2"/>
+      <service name="OSPFv3"/>
+      <service name="IPForward"/>
+    </node>
+    <node type="host">
+      <service name="DefaultRoute"/>
+      <service name="SSH"/>
+    </node>
+  </default_services>
+</scenario>
